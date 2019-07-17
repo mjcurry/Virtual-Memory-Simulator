@@ -21,14 +21,14 @@ Memory management system that supports variable page size, multiple swapping alg
 The goal of this project is to simulate a virtual memory management system. The compiled program accepts the following
 parameters at the command prompt in the order specified:
 
-1. : plist (the name of the process list file)
-2. : ptrace (the name of the process execution trace file)
-3. : page size (# of memory locations for each page)
-4. : FIFO, LRU, or Clock (type of page replacement algorithm)
+1. plist (the name of the process list file)
+2. ptrace (the name of the process execution trace file)
+3. page size (# of memory locations for each page)
+4. FIFO, LRU, or Clock (type of page replacement algorithm)
   - FIFO: first-in first-out
   - LRU: least recently used
   - Clock: clock algorithm
-5. : + or - (a flag to toggle a pre-paging feature)
+5. + or - (a flag to toggle a pre-paging feature)
   - +: turn pre-paging on
   - -: leave default demand paging
 

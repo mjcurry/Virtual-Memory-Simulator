@@ -53,7 +53,7 @@ In this simulation, consider a *memory location* to be an atomic unit, that is, 
 
 The program's main memory holds **512** memory locations
 
-Two files are supplies:
+Two files are supplied for the purpose of example:
 - plist
   - Contains a list of programs that will be loaded into main memory.
   - Each line has the format `(pid, total # of memory locations)` which specifies the total number of memory locations needed by each program

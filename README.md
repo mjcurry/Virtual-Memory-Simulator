@@ -1,4 +1,4 @@
-# Virtual-Memory-Simulator
+# Extensible Virtual Memory System Simulator
 
 
 ## Contributors

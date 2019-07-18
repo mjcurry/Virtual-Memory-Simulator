@@ -28,9 +28,9 @@ parameters at the command prompt in the order specified:
   - FIFO: first-in first-out
   - LRU: least recently used
   - Clock: clock algorithm
-5. + or - (a flag to toggle a pre-paging feature)
-  - +: turn pre-paging on
-  - -: leave default demand paging
+5. A `+` or `-` (a flag to toggle a pre-paging feature)
+  - `+`: turn pre-paging on
+  - `-`: leave default demand paging
 
 Two files, `plist` and `ptrace` are provided this repo, and can be used for testing. An example command looks like this:
 
